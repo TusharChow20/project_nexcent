@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="./nexcent.css">
+</head>
+<body class="inter-font" >
+    <header class=" grid grid-cols-2 items-center mt-2  w-full">
+        <img class="ml-2 md:ml-5" src="./Assets/Logo.png" alt="NextCent LOGO">
+        <div class="grid grid-cols-2 gap-1 items-center w-full md:grid-cols-4 md:gap-8 md:ml-[-30px] lg:grid-cols-6 lg:gap-0">
+            <h4>Home</h4>
+            <h4 class="hidden md:grid">Features</h4>
+            <h4 class="hidden lg:grid">Community</h4>
+            <h4 class="hidden lg:grid">Blog</h4>
+            <h4 class="hidden md:grid ">Pricing</h4>
+            <button class="bg-[#4CAF4F] text-white p-2 w-full ml-[-20px] rounded-xl lg:hover:bg-red-300 hover:text-black">Register Now </button>
+        </div>
+    </header>
+
+    <!-- banner -->
+
+    <section class=" text-center flex flex-col-reverse w-full mt-10 md:bg-[#455A641A] md:flex-row md:text-left gap-2 lg:justify-between lg:p-30 ">
+        <div class="m-2 md:m-12 mt-2.5 lg:m-20">
+            <h1 class="font- text-4xl lg:text-[110px]">Lessons and insights <span class="text-[#4CAF4F]">from 8 years</span></h1>
+            <p class="text-[#717171] lg:text-3xl lg:font-semibold">Where to grow your business as a photographer: site or social media?</p>
+            <button class="bg-[#4CAF4F] text-white p-4 rounded-xl mt-2.5 mb-5 lg:p-[30px] lg:text-2xl lg:mt-10 cursor-pointer hover:bg-amber-300 hover:text-black">
+                Register
+            </button>
+        </div>
+        <img class="w-auto" src="./Assets/Illustration.png" alt="">
+    </section>
+
+</body>
+</html>
